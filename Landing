@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Here and Beyond WMU</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4e8c1; /* Soft gold background */
+            color: #4b2e00; /* Rich brown text */
+        }
+        header {
+            background-color: #ae8d45; /* Gold tone */
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            color: #ffffff; /* White for contrast */
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #4b2e00; /* Dark brown */
+        }
+        nav a {
+            text-decoration: none;
+            color: #ffffff; /* White text */
+            padding: 15px 20px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            background-color: #ae8d45; /* Gold on hover */
+        }
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+        footer {
+            background-color: #4b2e00;
+            color: #ffffff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Here and Beyond WMU</h1>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <main>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Welcome to Here and Beyond WMU! Our mission is to connect and inspire individuals at Western Michigan University and beyond.</p>
+        </section>
+        <section id="services">
+            <h2>Our Services</h2>
+            <p>We offer resources, events, and community-building opportunities for students and alumni.</p>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Email us at <a href="mailto:info@hereandbeyondwmu.com">info@hereandbeyondwmu.com</a></p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Here and Beyond WMU. All rights reserved.</p>
+    </footer>
+</body>
+</html>
